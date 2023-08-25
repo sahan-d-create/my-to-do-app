@@ -1,0 +1,53 @@
+body {
+  background-color: #2A363B;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.todo-app {
+  background-color: #510A32;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  color: white;
+  text-align: center;
+}
+
+.add-todo {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.add-button {
+  background-color: #EE4540;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: #2D142C;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-color: #EE4540;
+  color: #EE4540;
+}
+
+.delete-button:hover {
+  background-color: #EE4540;
+  color: white;
+}
